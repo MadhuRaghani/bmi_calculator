@@ -28,6 +28,7 @@ class _DecisionPageState extends State<DecisionPage> {
               cardChild: IconContent(
                 icon: Icon(
                   FontAwesomeIcons.calculator,
+                  color: Colors.white,
                   size: 80.0,
                 ),
                 text: Text('Calculate BMI',style: kTextStyle),
@@ -50,6 +51,7 @@ class _DecisionPageState extends State<DecisionPage> {
               cardChild: IconContent(
                 icon: Icon(
                   FontAwesomeIcons.cheese,
+                  color: Colors.white,
                   size: 80.0,
                 ),
                 text: Text('Calorie Counter',style: kTextStyle),
@@ -71,6 +73,7 @@ class _DecisionPageState extends State<DecisionPage> {
               cardChild: IconContent(
                 icon: Icon(
                   FontAwesomeIcons.info,
+                  color: Colors.white,
                   size: 60.0,
                 ),
                 text: Text('About',style: kTextStyle),

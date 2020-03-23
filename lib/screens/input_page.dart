@@ -45,6 +45,7 @@ class _InputPageState extends State<InputPage> {
                     cardChild: IconContent(
                       icon: Icon(
                         FontAwesomeIcons.mars,
+                        color: Colors.white,
                         size: 80.0,
                       ),
                       text: Text('MALE',style: kTextStyle),
@@ -59,7 +60,7 @@ class _InputPageState extends State<InputPage> {
                 ),
                 Expanded(
                   child: new ReusableCard(
-                    cardChild: IconContent(icon: Icon(FontAwesomeIcons.venus, size: 80.0,), text: Text('FEMALE',style: kTextStyle,),),
+                    cardChild: IconContent(icon: Icon(FontAwesomeIcons.venus, color: Colors.white, size: 80.0,), text: Text('FEMALE',style: kTextStyle,),),
                     onPress: (){
                       setState(() {
                         genderCardPressed(Gender.female);

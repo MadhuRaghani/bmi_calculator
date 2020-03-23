@@ -46,7 +46,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.remove,
-                              size: 40,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -60,11 +60,12 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
+                          color: Colors.blue,
                           child: Center(
                             child: Text(
                               'Coffee',
                               style: TextStyle(
-                                  fontSize: 20.0,
+                                  fontSize: 20.0,color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1.5),
                             ),
@@ -90,7 +91,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.add,
-                              size: 40.0,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -121,7 +122,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.remove,
-                              size: 40,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -132,6 +133,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                       child: Container(
                         height: 75.0,
                         child: Card(
+                          color: Colors.blue,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
@@ -139,7 +141,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             child: Text(
                               'Tea',
                               style: TextStyle(
-                                  fontSize: 20.0,
+                                  fontSize: 20.0,color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1.5),
                             ),
@@ -165,7 +167,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.add,
-                              size: 40.0,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -196,7 +198,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.remove,
-                              size: 40,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -207,6 +209,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                       child: Container(
                         height: 75.0,
                         child: Card(
+                          color: Colors.blue,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
@@ -214,7 +217,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             child: Text(
                               'Coke',
                               style: TextStyle(
-                                  fontSize: 20.0,
+                                  fontSize: 20.0,color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1.5),
                             ),
@@ -240,7 +243,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.add,
-                              size: 40.0,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -271,7 +274,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.remove,
-                              size: 40,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -282,6 +285,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                       child: Container(
                         height: 75.0,
                         child: Card(
+                          color: Colors.blue,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
@@ -289,7 +293,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             child: Text(
                               'Tomato Juice',
                               style: TextStyle(
-                                  fontSize: 20.0,
+                                  fontSize: 20.0,color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1.5),
                             ),
@@ -315,7 +319,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.add,
-                              size: 40.0,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -346,7 +350,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.remove,
-                              size: 40,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -357,6 +361,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                       child: Container(
                         height: 75.0,
                         child: Card(
+                          color: Colors.blue,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
@@ -364,7 +369,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             child: Text(
                               'Orange Juice',
                               style: TextStyle(
-                                  fontSize: 20.0,
+                                  fontSize: 20.0,color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1.5),
                             ),
@@ -390,7 +395,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.add,
-                              size: 40.0,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -421,7 +426,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.remove,
-                              size: 40,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -432,6 +437,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                       child: Container(
                         height: 75.0,
                         child: Card(
+                          color: Colors.blue,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
@@ -439,7 +445,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             child: Text(
                               'Kachori',
                               style: TextStyle(
-                                  fontSize: 20.0,
+                                  fontSize: 20.0,color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1.5),
                             ),
@@ -465,7 +471,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.add,
-                              size: 40.0,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -496,7 +502,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.remove,
-                              size: 40,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -507,6 +513,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                       child: Container(
                         height: 75.0,
                         child: Card(
+                          color: Colors.blue,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
@@ -514,7 +521,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             child: Text(
                               'Vada Pav',
                               style: TextStyle(
-                                  fontSize: 20.0,
+                                  fontSize: 20.0,color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1.5),
                             ),
@@ -540,7 +547,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.add,
-                              size: 40.0,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -571,7 +578,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.remove,
-                              size: 40,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -582,6 +589,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                       child: Container(
                         height: 75.0,
                         child: Card(
+                          color: Colors.blue,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
@@ -589,7 +597,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             child: Text(
                               'Sandwich',
                               style: TextStyle(
-                                  fontSize: 20.0,
+                                  fontSize: 20.0,color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1.5),
                             ),
@@ -615,7 +623,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.add,
-                              size: 40.0,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -646,7 +654,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.remove,
-                              size: 40,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -657,6 +665,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                       child: Container(
                         height: 75.0,
                         child: Card(
+                          color: Colors.blue,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
@@ -664,7 +673,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             child: Text(
                               'Pizza',
                               style: TextStyle(
-                                  fontSize: 20.0,
+                                  fontSize: 20.0,color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1.5),
                             ),
@@ -690,7 +699,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.add,
-                              size: 40.0,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -721,7 +730,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.remove,
-                              size: 40,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -732,6 +741,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                       child: Container(
                         height: 75.0,
                         child: Card(
+                          color: Colors.blue,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
@@ -739,7 +749,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             child: Text(
                               'Dhokla',
                               style: TextStyle(
-                                  fontSize: 20.0,
+                                  fontSize: 20.0,color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1.5),
                             ),
@@ -765,7 +775,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.add,
-                              size: 40.0,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -796,7 +806,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.remove,
-                              size: 40,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -807,6 +817,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                       child: Container(
                         height: 75.0,
                         child: Card(
+                          color: Colors.blue,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
@@ -814,7 +825,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             child: Text(
                               'Milk / Curd',
                               style: TextStyle(
-                                  fontSize: 20.0,
+                                  fontSize: 20.0,color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1.5),
                             ),
@@ -840,7 +851,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.add,
-                              size: 40.0,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -871,7 +882,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.remove,
-                              size: 40,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -882,6 +893,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                       child: Container(
                         height: 75.0,
                         child: Card(
+                          color: Colors.blue,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
@@ -889,7 +901,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             child: Text(
                               'Paneer',
                               style: TextStyle(
-                                  fontSize: 20.0,
+                                  fontSize: 20.0,color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1.5),
                             ),
@@ -915,7 +927,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.add,
-                              size: 40.0,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -946,7 +958,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.remove,
-                              size: 40,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -957,6 +969,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                       child: Container(
                         height: 75.0,
                         child: Card(
+                          color: Colors.blue,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
@@ -964,7 +977,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             child: Text(
                               'Cheese',
                               style: TextStyle(
-                                  fontSize: 20.0,
+                                  fontSize: 20.0,color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1.5),
                             ),
@@ -990,7 +1003,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.add,
-                              size: 40.0,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -1021,7 +1034,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.remove,
-                              size: 40,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -1032,6 +1045,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                       child: Container(
                         height: 75.0,
                         child: Card(
+                          color: Colors.blue,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
@@ -1039,7 +1053,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             child: Text(
                               'Roti',
                               style: TextStyle(
-                                  fontSize: 20.0,
+                                  fontSize: 20.0,color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1.5),
                             ),
@@ -1065,7 +1079,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.add,
-                              size: 40.0,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -1096,7 +1110,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.remove,
-                              size: 40,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -1107,6 +1121,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                       child: Container(
                         height: 75.0,
                         child: Card(
+                          color: Colors.blue,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
@@ -1114,7 +1129,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             child: Text(
                               'Rice',
                               style: TextStyle(
-                                  fontSize: 20.0,
+                                  fontSize: 20.0,color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1.5),
                             ),
@@ -1140,7 +1155,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.add,
-                              size: 40.0,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -1171,7 +1186,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.remove,
-                              size: 40,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -1182,6 +1197,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                       child: Container(
                         height: 75.0,
                         child: Card(
+                          color: Colors.blue,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
@@ -1189,7 +1205,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             child: Text(
                               'Idli',
                               style: TextStyle(
-                                  fontSize: 20.0,
+                                  fontSize: 20.0,color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1.5),
                             ),
@@ -1215,7 +1231,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.add,
-                              size: 40.0,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -1246,7 +1262,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.remove,
-                              size: 40,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -1257,6 +1273,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                       child: Container(
                         height: 75.0,
                         child: Card(
+                          color: Colors.blue,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
@@ -1264,7 +1281,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             child: Text(
                               'Noodles',
                               style: TextStyle(
-                                  fontSize: 20.0,
+                                  fontSize: 20.0,color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1.5),
                             ),
@@ -1290,7 +1307,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.add,
-                              size: 40.0,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -1321,7 +1338,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.remove,
-                              size: 40,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -1332,6 +1349,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                       child: Container(
                         height: 75.0,
                         child: Card(
+                          color: Colors.blue,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
@@ -1339,7 +1357,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             child: Text(
                               'Bread',
                               style: TextStyle(
-                                  fontSize: 20.0,
+                                  fontSize: 20.0,color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1.5),
                             ),
@@ -1365,7 +1383,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.add,
-                              size: 40.0,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -1396,7 +1414,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.remove,
-                              size: 40,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -1407,6 +1425,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                       child: Container(
                         height: 75.0,
                         child: Card(
+                          color: Colors.blue,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
@@ -1414,7 +1433,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             child: Text(
                               'Boiled Egg',
                               style: TextStyle(
-                                  fontSize: 20.0,
+                                  fontSize: 20.0,color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1.5),
                             ),
@@ -1440,7 +1459,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.add,
-                              size: 40.0,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -1471,7 +1490,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.remove,
-                              size: 40,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -1482,6 +1501,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                       child: Container(
                         height: 75.0,
                         child: Card(
+                          color: Colors.blue,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
@@ -1489,7 +1509,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             child: Text(
                               'Mango',
                               style: TextStyle(
-                                  fontSize: 20.0,
+                                  fontSize: 20.0,color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1.5),
                             ),
@@ -1515,7 +1535,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.add,
-                              size: 40.0,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -1546,7 +1566,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.remove,
-                              size: 40,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),
@@ -1557,6 +1577,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                       child: Container(
                         height: 75.0,
                         child: Card(
+                          color: Colors.blue,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
@@ -1564,7 +1585,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             child: Text(
                               'Grapes',
                               style: TextStyle(
-                                  fontSize: 20.0,
+                                  fontSize: 20.0,color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1.5),
                             ),
@@ -1590,7 +1611,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                             ),
                             child: Icon(
                               Icons.add,
-                              size: 40.0,
+                              size: 40.0,color: Colors.white,
                             ),
                           ),
                         ),

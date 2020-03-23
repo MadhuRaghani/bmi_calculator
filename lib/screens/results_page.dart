@@ -37,7 +37,10 @@ class ResultsPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
-                  Text(interpretation, style: kResultTextStyle),
+                  Container(
+                    padding: EdgeInsets.all(10.0),
+                    child: Text(interpretation, style: kResultTextStyle),
+                  ),
                   Text(bmiValue, style: kResultValueTextStyle,),
                   Text(result, style: TextStyle(
                     fontSize: 25.0,

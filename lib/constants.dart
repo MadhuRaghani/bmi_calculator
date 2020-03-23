@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 const kBottomContainerHeight = 80.0;
-const Color kActiveColor = Colors.blueGrey;
+const Color kActiveColor = Colors.blue;
 const Color kInActiveColor = Colors.black12;
 const Color kBottomContainerColor = Color(0xFFEB1555);
 
@@ -33,7 +33,7 @@ const kLargeTextButtonStyle = TextStyle(
 );
 
 const kResultTextStyle = TextStyle(
-  fontSize: 20.0,
+  fontSize: 25.0,
   fontWeight: FontWeight.w400,
   color: Colors.white,
 );
