@@ -24,7 +24,7 @@ class ResultsPage extends StatelessWidget {
               padding: EdgeInsets.only(top: 10.0),
               child: Text("Your Result:", style: TextStyle(
                 fontWeight: FontWeight.bold,
-                fontSize: 50.0,
+                fontSize: 45.0,
               ),
               ),
               alignment: Alignment.bottomLeft,

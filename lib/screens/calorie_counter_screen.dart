@@ -1,3 +1,4 @@
+import 'package:bmicalculator/constants.dart';
 import 'package:flutter/material.dart';
 
 class CalorieCounterScreen extends StatefulWidget {
@@ -1606,18 +1607,18 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Container(
-                  color: Color(0xff303030),
+                  color: kActiveColor,
                   height: 75.0,
                   child: Center(
                     child: Text(
                       'Total Calories: ${calories < 0.0 ? calories = 0.0 : calories}',
                       textAlign: TextAlign.center,
-                      style: TextStyle(fontSize: 20.0),
+                      style: kMediumTextStyle,
                     ),
                   ),
                 ),
                 Container(
-                  color: Color(0xff303030),
+                  color: kActiveColor,
                   height: 75.0,
                   child: FlatButton(
                     onPressed: () {
@@ -1661,7 +1662,7 @@ class _CalorieCounterScreenState extends State<CalorieCounterScreen> {
                       child: Text(
                         'Compare Calories',
                         textAlign: TextAlign.center,
-                        style: TextStyle(fontSize: 25.0),
+                        style: kMediumTextStyle,
                       ),
                     ),
                   ),

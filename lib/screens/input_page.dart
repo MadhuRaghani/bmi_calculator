@@ -86,7 +86,7 @@ class _InputPageState extends State<InputPage> {
                     textBaseline: TextBaseline.alphabetic,
                     children: <Widget>[
                       Text(height.toString(), style: kBigTextStyle,),
-                      Text("cm", style: kTextStyle,),
+                      Text("cm", style: kBigTextStyle,),
                     ],
                   ),
                   SliderTheme(
